@@ -1,0 +1,76 @@
+
+1.	Cari nilai KPK dari 3 dan 4
+A.	Algoritma:
+-	Input nilai a = 3 dan b = 4.
+-	Cari nilai maksimum = max(3, 4) = 4.
+-	Periksa: Apakah 4 habis dibagi 3 dan 4? Tidak.
+-	Tambahkan maksimum dengan 4, jadi maksimum = 8.
+-	Apakah 8 habis dibagi 3 dan 4? Tidak.
+-	Tambahkan maksimum, jadi maksimum = 12.
+-	Apakah 12 habis dibagi 3 dan 4? Ya.
+-	Simpan kpk = 12.
+-	Tampilkan hasil: KPK dari 3 dan 4 adalah 12.
+B.	Pseudocode Deklarasikan Var a, b
+a  3
+b  4
+maks= max(a, b)
+if maks % a == 0 dan maks % b == 0:
+kpk = maks Hentikan perulangan
+Else: maks = maks + max(a, b)
+write "KPK dari", a, "dan", b, "adalah", kpk
+
+2.	Berfungsi untuk menukar posisi dua variabel x dan y, dengan kasus :
+Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+A.	Algoritma
+-	Tempatkan manggis (yang ada di piring 1) ke piring 3 (sementara).
+-	Pindahkan pisang (yang ada di piring 2) ke piring 1.
+-	Pindahkan manggis dari piring 3 ke piring 2
+B.	Pseudocode Deklarasikan Var x, y
+x  Manggis y Pisang temp ← x
+x ← y
+y ← temp
+3.	Mengetahui sebuah segitiga memiliki ukuran sebagai berikut: (Alasnya 25, Tinggi 30, Hitung luas dari segitiga tersebut.
+A.	Algoritma
+-	Input nilai alas = 25.
+-	Input nilai tinggi = 30.
+-	Hitung luas: luas=1/2×25×30=375
+-	Tampilkan hasil: Luas segitiga adalah 375.
+B.	Pseudocode Deklarasikan
+Var luas, alas, tinggi alas  25
+ 
+tinggi  30
+luas = (1/2) * alas * tinggi Write (luas)
+4.	Tentukan algoritma dan pseudocode luas jajar genjang (panjang = 5, tinggi = 3)
+A.	Algoritma
+-	Input nilai panjang = 5.
+-	Input nilai tinggi = 3.
+-	Hitung luas: luas=5×3=15
+-	Tampilkan hasil: Luas jajar genjang adalah 15.
+B.	Pseudocode Deklarasikan
+Var luas, Panjang, tinggi panjang  5
+tinggi  3
+luas = panjang * tinggi Write (luas)
+5.	Tentukan algoritma dan pseudocode volume tabung ( jari-jari = 3, tinggi = 5)
+A.	Algoritma
+-	Input nilai jari_jari = 3.
+-	Input nilai tinggi = 5.
+-	Hitung volume: volume=3.14×3^2×5=141.3
+-	Tampilkan hasil: Volume tabung adalah 141.3.
+B.	Pseudocode Deklarasikan
+Var, volume, jari_jari, tinggi, pi Jari_jari = 3
+tinggi = 5
+pi = 3.14
+volume = pi * jari_jari^2 * tinggi Write (volume)
+6.	Tentukan algoritma dan pseudocode volume kerucut (diameter = 5, tinggi = 4)
+A.	Algoritma
+-	Input nilai diameter = 5.
+-	Input nilai tinggi = 4.
+-	Hitung jari-jari: jarijari=5/2=2.5
+-	Hitung volume: volume=1/3×3.14×2.5^2×4=26.17
+-	Tampilkan hasil: Volume kerucut adalah 26.17.
+B.	Pseudocode Deklarasikan
+var volume, pi, tinggi, diameter, jari_jari diameter = 5
+tinggi = 4
+pi = 3.14
+jari-jari = diameter / 2
+volume = (1/3) * pi * jari_jari^2 * tinggi write (volume)
